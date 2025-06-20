@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button class="button-close" type="button" data-modal-close>
-                        <svg class="button-close-icon" width="11px" height="11px">
+                        <svg class="button-close__icon" width="11px" height="11px">
                             <use href="./images/icons.svg#close"></use>
                         </svg>
                     </button>
@@ -95,7 +95,7 @@
                         </label>
                         <div class="button-wrap">
                             <button type="submit" class="form-button">
-                                <p class="form-button-text">Відправити</p>
+                                <p class="form-button__text">Відправити</p>
                             </button>
                         </div>
                     </form>
@@ -143,7 +143,7 @@
         </section>
         <section class="services">
             <div class="container">
-                <h2 class="services-title title">Чим ми займаємося</h2>
+                <h2 class="services__title title">Чим ми займаємося</h2>
                 <ul class="services-list">
                     <li class="services-list__item"><img src="./images/img1.jpg" alt="Розробка вебсайтів" width="370"
                             height="294"></li>
@@ -357,8 +357,8 @@
                 <li class="footer-list__item">
                     <a href="/" class="logo"><span class="part-logo">Web</span><span
                             class="footer-logo">Studio</span></a>
-                    <address class="address">
-                        <span class="address-text">м. Київ, пр-т Лесі Українки, 26</span> <br>
+                    <address class="footer-address">
+                        <span class="footer-address__text">м. Київ, пр-т Лесі Українки, 26</span> <br>
                         <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a><br>
                         <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
                     </address>
@@ -398,7 +398,7 @@
                 </li>
                 <li class="footer-list__item">
                     <p class="footer-list__text">Підпишіться на розсилку</p>
-                    <div class="footer-columns">
+                    <div class="footer-list__columns">
                         <form class="footer-form">
                             <label class="footer-form__field">
                                 <input type="text" class="footer-form__input" placeholder="E-mail">
